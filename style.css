@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@800&display=swap');
+*{
+    font-family: "Kanit", sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo_name {
+    font-size: 25px;
+    font-weight: 700;
+    padding-right: 30px;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: black;
+}
+
+.btn {
+    margin-left: auto;
+    padding: 0px 50px;
+}
+
+.btn button {
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}
+.ellipse {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(255, 85, 85, 1) 0%, rgba(255, 85, 85, 0) 70%);
+    border-radius: 50%;
+}
+.ellipse{
+    margin-left: 200px;
+    position: absolute;
+    z-index: -1;
+}
+.overlay-text{
+    z-index: 1;
+    position:absolute;
+}
+.overlay-text{
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight:900;
+}
+.sub-text{
+    font-size: 17px;
+    margin-top: 250px;
+}
+
+
+.hero-image {
+    position: relative;
+    width: 300px;  /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    float:right;
+    padding-right: 280px;
+}
+
+.image {
+    position: absolute;
+    width: 220px;  /* Adjust as needed */
+    height: 480px;
+    box-shadow: 10px 4px 20px rgba(0, 0, 0, 0.2); 
+    border: 8px solid black;
+    border-radius: 15px;
+}
+.image-1 {
+    z-index: 2;
+    box-shadow: 50px black;
+    transform: rotate(-15deg);
+    margin-right: 900px;
+}
+.image-2 {
+    z-index: 1;
+    box-shadow: 50px black;
+    transform: rotate(-16deg);
+    margin-right: 900px;
+    margin-top: 45px;
+    margin-left: 80px;
+}
+.image-3 {
+    z-index: 0;
+    box-shadow: 50px black;
+    transform: rotate(-17deg);
+    margin-right: 900px;
+    margin-top: 90px;
+    margin-left: 150px;
+}
+.ellipse-1 {
+    background: radial-gradient(circle, rgba(255, 85, 85, 1) 0%, rgba(255, 85, 85, 0) 70%);
+    border-radius: 50%;
+}
+.ellipse-1{
+    margin-top: 370px;
+    position: absolute;
+    z-index: -1;
+}
+.header{
+    margin-top: 10px;
+    margin-right: 280px;
+}
+.header-buttons-1{
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.header-buttons-2{
+    margin-top: 5px;
+    padding: 5px 20px;
+    border:none;
+}
+.play-png{
+    display: inline;
+    height: 25px;
+    width:25px
+}
+
+.fa-trophy{
+    font-size: 40px;
+}
+
+/* footer */
+
+
+.black-bar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 3;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+.black-bar-A{
+
+    color:black;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 429px;
+    font-size: 66px;
+    margin-left: 37px;
+}
+
+.red-bar {
+    background-color:#FF5555;
+    padding: 10px;
+    width: 230px;
+    height: 50px;
+    transform: rotate(-65deg);
+    position: absolute;
+    top: 470px;
+    border-radius: 10px;
+    left: 247px;
+    z-index: 2;
+    box-shadow: 10px 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.red-bar-2 {
+    background-color:#FF5555;
+    padding: 10px;
+    width: 230px;
+    height: 50px;
+    transform: rotate(-360deg);
+    position: absolute;
+    top: 560px;
+    border-radius: 10px;
+    left: 341px;
+    z-index: 1;
+}
+.fa-star{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+/*foot panel2*/
+.foot-panel2{
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel2 a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: black
+}
+
+.foot-panel4{
+    background-color: white;
+    color: black;
+    font-size: 0.8rem;
+    text-align: center;
+    height: 100px;
+    
+}
+.pages{  
+    padding: 20px;
+}
+.copyright{   
+    padding-top: 1px;
+}
